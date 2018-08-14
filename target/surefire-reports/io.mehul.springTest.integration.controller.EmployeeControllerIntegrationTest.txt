@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: io.mehul.springTest.integration.controller.EmployeeControllerIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.694 s <<< FAILURE! - in io.mehul.springTest.integration.controller.EmployeeControllerIntegrationTest
+givenEmployees_whenGetEmployees_thenStatus200(io.mehul.springTest.integration.controller.EmployeeControllerIntegrationTest)  Time elapsed: 0.034 s  <<< FAILURE!
+java.lang.AssertionError: 
+JSON path "$[*].firstName"
+Expected: iterable over ["Alex"] in any order
+     but: Not matched: "Gary"
+	at io.mehul.springTest.integration.controller.EmployeeControllerIntegrationTest.givenEmployees_whenGetEmployees_thenStatus200(EmployeeControllerIntegrationTest.java:48)
+
